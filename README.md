@@ -4,10 +4,10 @@ Step 1: Extract the ZIP file.
  Unzip the project archive to a folder on your machine.
 
 Step 2: Open the folder in VS¯Code.
-   In VSâ€¯Code: File ât’ Open Folder¦ ât’ select the unzipped project folder.
+   In VS Code: File ât’ Open Folder¦ ât’ select the unzipped project folder.
 
 Step 3: Install and start the backend.
-  3.1 Open a split terminal in VSâ€¯Code.
+  3.1 Open a split terminal in VS Code.
   3.2 In the first pane, run:
         cd backend
         npm install
