@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 
-const STRIPE_SECRET_KEY = "sk_test_51TARA1Jj471nGdOwhOkQKmECly84xHy2atvb79D0BAExj2cPIXb0SFfk2nuTqpEBvabkFIwLmlh8o6JUuyXcaIub00V9DH8D6U"; //PASTE YOUR STRIPE SECRET KEY HERE 
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);//PASTE YOUR STRIPE SECRET KEY HERE 
 const STRIPE_API_VERSION = "2022-11-15";
 const RECLINER_ROWS = new Set(["D", "E"]);
 const BLOCKING_STATUSES = ["pending", "paid", "confirmed", "active", "upcoming"];
